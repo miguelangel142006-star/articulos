@@ -17,3 +17,6 @@ botones.forEach(boton => {
         });
     });
 });
+@media (max-width: 600px) {
+    .productos-container, .filtros { flex-direction: column; align-items: center; }
+}
